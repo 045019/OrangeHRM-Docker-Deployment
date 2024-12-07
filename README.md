@@ -142,7 +142,7 @@ sudo apt install docker-compose
    - For Database configuration, use the following database credentials:
      - **Database Host Name**: `orangehrm_mariadb_1`
 
-       Note: **Database Host Name** can be found using
+       `Note: Database Host Name can be found using`
        
        ```bash
        sudo docker-compose ps
