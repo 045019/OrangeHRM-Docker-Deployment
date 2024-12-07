@@ -125,7 +125,7 @@ sudo apt install docker-compose
    sudo docker-compose up -d
    ```
 
-5. **Finding IP address**:
+5. **Find IP address**:
    Open the terminal and find the IP address of the virtual machine/server, which has docker-CE and docker-compose installed on:
    ```bash
    ip a
@@ -140,7 +140,11 @@ sudo apt install docker-compose
    - Select **"Fresh Installation"** (for the first time).
    - Agree to the GNU V2 License.
    - For Database configuration, use the following database credentials:
-     - **Database Host Name**: `orangehrm_mariadb_1` (can be found using ```bash sudo docker-compose ps```)
+     - **Database Host Name**: `orangehrm_mariadb_1`
+       (can be found using
+       ```bash
+       sudo docker-compose ps
+       ```)
      - **DB Name**: `orangehrm`
      - **User**: `root`
      - **Password**: (docker-compose password)
