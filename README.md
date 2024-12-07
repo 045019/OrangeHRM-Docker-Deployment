@@ -141,10 +141,13 @@ sudo apt install docker-compose
    - Agree to the GNU V2 License.
    - For Database configuration, use the following database credentials:
      - **Database Host Name**: `orangehrm_mariadb_1`
+
        (can be found using
+       
        ```bash
        sudo docker-compose ps
-       ```)
+       ```
+       )
      - **DB Name**: `orangehrm`
      - **User**: `root`
      - **Password**: (docker-compose password)
