@@ -61,7 +61,7 @@ ls -lh
 sudo chmod +x ./install_docker_nproxyman.sh
 ./install_docker_nproxyman.sh
 ```
-*Note: If Docker-Compose does not get installed then reinstall it again by using*
+*Note: If docker-compose does not get installed then reinstall it again by using*
 
 ```bash
 sudo apt install docker-compose
