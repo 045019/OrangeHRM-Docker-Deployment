@@ -61,7 +61,7 @@ ls -lh
 sudo chmod +x ./install_docker_nproxyman.sh
 ./install_docker_nproxyman.sh
 ```
-Note: If Docker-Compose does not get installed then reinstall it again by using
+*Note: If Docker-Compose does not get installed then reinstall it again by using*
 
 ```bash
 sudo apt install docker-compose
@@ -142,7 +142,7 @@ sudo apt install docker-compose
    - For Database configuration, use the following database credentials:
      - **Database Host Name**: `orangehrm_mariadb_1`
 
-       `Note: Database Host Name can be found using`
+       *Note: Database Host Name can be found using*
        
        ```bash
        sudo docker-compose ps
