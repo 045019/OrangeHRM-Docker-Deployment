@@ -125,11 +125,11 @@ sudo apt install docker-compose
    sudo docker-compose up -d
    ```
 
-Open the terminal and find the IP address of the virtual machine/server, which has docker-CE and docker-compose installed on:
-
-```bash
-ip a
-```
+5. **Finding IP address**:
+   Open the terminal and find the IP address of the virtual machine/server, which has docker-CE and docker-compose installed on:
+   ```bash
+   ip a
+   ```
 
 ---
 
@@ -143,7 +143,7 @@ ip a
      - **Database Host Name**: `orangehrm_mariadb_1` (can be found using ```bash sudo docker-compose ps```)
      - **DB Name**: `orangehrm`
      - **User**: `root`
-     - **Password**: (your docker-compose password)
+     - **Password**: (docker-compose password)
    - Set up the admin user and base organisation details.
 
 3. Complete the installation wizard.
